@@ -1,8 +1,8 @@
 const change = document.getElementById('btn');
-
-setTimeout(() => {
-  change.addEventListener('click', ()=>{
-    document.getElementById('text').innerHTML = 'ボタンがクリックされました';
+const text = document.getElementById('text');
+ 
+change.addEventListener('click', ()=>{
+    setTimeout(() =>{
+      text.innerHTML = 'ボタンがクリックされました';
+   }, 2000);
   });
-}, 2000);
-
