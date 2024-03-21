@@ -3,4 +3,5 @@ const multiplication = (number) => {
   console.log(result);
 }
 
+
 multiplication(4); 
