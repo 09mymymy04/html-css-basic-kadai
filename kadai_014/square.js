@@ -1,7 +1,7 @@
 const multiplication = (number) => {
   const result = Math.pow(number, 2);
-  console.log(result);
+  return result;
 }
 
 
-multiplication(4); 
+console.log(multiplication(4)); 
